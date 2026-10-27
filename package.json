@@ -1,0 +1,55 @@
+{
+  "name": "taiga-link",
+  "version": "0.1.0",
+  "description": "Taiga issues in Claude Code: link projects to a repository, read issues and attachments, triage, and hand finished work back for testing.",
+  "type": "module",
+  "bin": {
+    "taiga": "bin/taiga",
+    "taiga-link": "bin/taiga"
+  },
+  "files": [
+    "bin",
+    "hooks",
+    "skills",
+    ".claude-plugin",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src test",
+    "test": "vitest run",
+    "verify": "pnpm run typecheck && pnpm run lint && pnpm run build && pnpm run test",
+    "version": "node scripts/sync-version.mjs && node scripts/build.mjs && git add .claude-plugin bin/taiga"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@10.33.4",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexander-rebello/taiga-link.git"
+  },
+  "homepage": "https://github.com/alexander-rebello/taiga-link",
+  "keywords": [
+    "taiga",
+    "claude-code",
+    "issues",
+    "workgate"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@inquirer/prompts": "^8.7.5",
+    "@types/node": "^26.6.5",
+    "commander": "^15.0.0",
+    "esbuild": "^0.28.2",
+    "eslint": "^10.13.0",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.72.1",
+    "vitest": "^5.0.5",
+    "workgate": "^0.1.6",
+    "zod": "^4.6.7"
+  }
+}

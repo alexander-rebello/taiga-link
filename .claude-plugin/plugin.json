@@ -1,0 +1,12 @@
+{
+  "name": "taiga-link",
+  "version": "0.1.0",
+  "description": "Taiga issues in Claude Code: linked projects, issues with comments and attachments, triage, and ready-for-test handoff. Integrates with workgate.",
+  "author": {
+    "name": "Alexander Rebello"
+  },
+  "homepage": "https://github.com/alexander-rebello/taiga-link",
+  "repository": "https://github.com/alexander-rebello/taiga-link",
+  "license": "MIT",
+  "keywords": ["taiga", "issues", "workgate"]
+}

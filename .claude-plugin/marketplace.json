@@ -1,0 +1,15 @@
+{
+  "name": "taiga-link",
+  "owner": {
+    "name": "Alexander Rebello"
+  },
+  "plugins": [
+    {
+      "name": "taiga-link",
+      "source": "./",
+      "description": "Taiga issues in Claude Code: linked projects, issues with comments and attachments, triage, and ready-for-test handoff.",
+      "version": "0.1.0"
+    }
+  ],
+  "description": "taiga-link: Taiga issues in Claude Code."
+}
