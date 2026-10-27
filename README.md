@@ -70,7 +70,7 @@ In a repository with `.workgate/config.json`, workgate is the todo list:
 - `taiga link` registers `taiga wg-hook` in the workgate config for `claim` and `done`. On claim it prints the issue; on done it asks Claude to draft the closing comment and run `taiga finish` after your approval.
 - `taiga todo` and `taiga show` show the workgate id of imported issues.
 
-Requires workgate 0.2.0 or later (`--ref` and event hooks).
+Requires workgate 0.2.1 or later (`--ref` and event hooks).
 
 ## Environment
 

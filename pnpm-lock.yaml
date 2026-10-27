@@ -36,8 +36,8 @@ importers:
         specifier: ^5.0.5
         version: 5.0.5(@types/node@26.6.5)(vite@8.3.5(@types/node@26.6.5)(esbuild@0.28.2))
       workgate:
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: ^0.2.1
+        version: 0.2.1
       zod:
         specifier: ^4.6.7
         version: 4.6.7
@@ -1151,8 +1151,8 @@ packages:
     resolution: {integrity: sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==}
     engines: {node: '>=0.10.0'}
 
-  workgate@0.2.0:
-    resolution: {integrity: sha512-p7pbRom8wlvQskFa/my9N+Ehj4d2kMR7DwMUgJxyxLuJ5LOeie8fATxQwmXm7WcHmyUa70+BXWlcaXpunhYmRQ==}
+  workgate@0.2.1:
+    resolution: {integrity: sha512-/eo1N8eDJDpi8e3jSecs5ae+55ce/+CeNoaM8RqC4boZyB0jHP5e6n5z1HaoNvhJUw5Og0zzia2Sbt9CmjJbOw==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -2070,7 +2070,7 @@ snapshots:
 
   word-wrap@1.2.5: {}
 
-  workgate@0.2.0: {}
+  workgate@0.2.1: {}
 
   yocto-queue@0.1.0: {}
 
